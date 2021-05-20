@@ -1,0 +1,101 @@
+body{
+	background-image: url("spade.jpg");
+	background-size: cover;
+}
+.icons
+{
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.icons a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'oswald',sans-serif;
+    margin: 2px;
+    text-align: right;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-140px, 0px);
+    transition: all 1.0s;
+}
+.icons a:hover
+{
+    transform: translate(0px, 0px);
+    box-shadow: 0 0 12px rgb(109, 109, 109);
+}
+.icons a i
+{
+    margin-left: 25px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 1.0s;
+}
+.icons a:hover i
+{
+    transform: rotate(360deg);
+}
+.icons a i.fa-facebook-f
+{
+    color: #2C80D3;
+    size: 5px;
+}
+.icons a i.fa-twitter
+{
+    color: #53c5ff;
+}
+.icons a i.fa-instagram
+{
+    color: #ea4c89;
+}
+.icons a i.fa-linkedin-in
+{
+    color: #0077B5;
+}
+.icons a i.fa-whatsapp
+{
+    color: #25D366;
+}
+.icons a i.fa-youtube
+{
+    color: #fa0910;
+}
+.facebook
+{
+    background-color: #2C80D3;
+    color: white;
+}
+.twitter
+{
+    background-color: #53c5ff;
+    color: white;
+}
+.instagram
+{
+    background-color: #ea4c89;
+    color: white;
+}
+.linkedin
+{
+    background-color: #0077B5;
+    color: white;
+}
+.whatsapp
+{
+    background-color: #25D366;
+    color: white;
+}
+.youtube
+{
+    background-color: #fa0910;
+    color: white;
+}
